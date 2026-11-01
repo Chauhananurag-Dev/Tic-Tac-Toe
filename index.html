@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="game-container">
+      <header class="game-header">
+        <h1>Tic-Tac-Toe</h1>
+        <p id="status" class="status-message" aria-live="polite">Player X's Turn</p>
+      </header>
+
+      <section class="board" aria-label="Tic-Tac-Toe board">
+        <button class="cell" type="button" data-index="0" aria-label="Cell 1"></button>
+        <button class="cell" type="button" data-index="1" aria-label="Cell 2"></button>
+        <button class="cell" type="button" data-index="2" aria-label="Cell 3"></button>
+        <button class="cell" type="button" data-index="3" aria-label="Cell 4"></button>
+        <button class="cell" type="button" data-index="4" aria-label="Cell 5"></button>
+        <button class="cell" type="button" data-index="5" aria-label="Cell 6"></button>
+        <button class="cell" type="button" data-index="6" aria-label="Cell 7"></button>
+        <button class="cell" type="button" data-index="7" aria-label="Cell 8"></button>
+        <button class="cell" type="button" data-index="8" aria-label="Cell 9"></button>
+      </section>
+
+      <button id="restart-button" class="restart-button" type="button">New Game</button>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
